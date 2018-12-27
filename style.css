@@ -85,3 +85,12 @@ label input.check:checked + .label-text {
   font-weight: bolder;
   text-transform: uppercase;
 }
+/* tyt */
+.yearMovie{
+  margin: 5px;
+  color: rgb(218, 11, 11);
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 15px;
+}/* tyt */

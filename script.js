@@ -21,6 +21,10 @@ fetch("movies.json")
         "★" +
         json.results[i].vote_average +
         "</div>";
+
+      /* tyt */
+        listItem.innerHTML +='<div class="yearMovie">'+json.results[i].release_date +'</div>';
+      /* tyt */
       listItem.innerHTML += '<div class="imageBlock"><img src=' + url + '></div>';
       listItem.innerHTML +=
         '<div class="overviewBlock">' + json.results[i].overview + "</div>";
